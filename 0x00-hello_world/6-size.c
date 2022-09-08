@@ -1,6 +1,6 @@
 #include <stdio.h>
 /**
- * main: Entry point
+ * main: Entry point of program that prints the values 
  * Description: prints size of various data types
  * Return: Always 0(success)
  */
