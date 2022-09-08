@@ -1,7 +1,14 @@
 #include<stdio.h>
-
-int main() {
+/**
+ *  * main - Entry point
+ *   *
+ *    * Description: prints "Programming is like building a multilingual puzzle"
+ *     *
+ *      * Return: Always 0 (Success)
+ *       */
+int main(void)
+{
 char program[] = "\"Programming is like building a multilingual puzzle";
 puts(program);
-return 0;	
+return (0);	
 }
