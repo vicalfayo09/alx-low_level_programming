@@ -9,7 +9,7 @@ int main(void)
 	int i = 97;
 	
 	int j = 65;
-
+	
 	while (i < 123)
 	{
 		putchar(i);
