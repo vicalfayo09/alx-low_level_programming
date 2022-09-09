@@ -3,11 +3,11 @@
  * main - prints lowercaseand uppercase letters in alphabetical order
  * Description: prints lowercase and uppercase in alphabetical order
  * Return: Always 0(success)
- */                                                                                                                
+ */
 int main(void)
 {
 	int i = 97;
-		
+	
 	int j = 65;
 
 	while (i < 123)
