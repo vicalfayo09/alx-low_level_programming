@@ -13,7 +13,7 @@ int main(void)
 
 	while (i < 58)
 	{
-		j = j + 1;
+		j = i + 1;
 
 		while (j < 58)
 		{
