@@ -3,8 +3,7 @@
 #include <stdio.h>
 
 /**main - prints last digit numbers in random
- * Description: prints numbers greater than five,less than
- * six or equals zero
+ * Description: prints last digit numbers in random
  * Return: Always 0 (success)
  */
 int main(void)
