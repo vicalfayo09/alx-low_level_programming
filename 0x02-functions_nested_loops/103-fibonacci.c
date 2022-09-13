@@ -23,6 +23,6 @@ int main(void)
 		first = second;
 		second = sum;
 	}
-	print_f("%li\n", total_sum);
+	printf("%li\n", total_sum);
 	return (0);
 }
