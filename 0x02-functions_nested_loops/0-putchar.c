@@ -1,4 +1,5 @@
 #include <stdio.h>
+#include "main.h"
 /**
  * main - prints _putchar
  * Description: prints _putchar
@@ -6,6 +7,6 @@
  */
 int main(void)
 {
-	printf("%cputchar\n",95);
+	myFunc();
 	return (0);
 }
