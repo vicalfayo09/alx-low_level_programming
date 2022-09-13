@@ -5,11 +5,18 @@
  * Description: prints the first 98 Fibonacci numbers
  * Return: Always 0(Success)
  */
+
+/**
+ * fib - prints the first 98 Fibonacci numbers
+ * @n: n is an integer
+ * Description: prints the first 98 Fibonacci numbers 
+ * Return: integer
+ */
 int fib(int n)
 {
 	if (n <= 1)
 		return (n);
-	return (fib(n - 1) + fib(n - 2));
+	return (fib(n - 1)) + (fib(n - 2));
 }
 int main(void)
 {
