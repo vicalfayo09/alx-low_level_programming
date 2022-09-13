@@ -1,8 +1,8 @@
 #include "main.h"
 #include <stdio.h>
 /**
- * main - finds and prints the sum of the even-valued terms below 4,000,000
- * Description: finds and prints the sum of the even-valued terms below 4,000,000
+ * main - prints the sum of the even-valued terms below 4,000,000
+ * Description: prints the sum of the even-valued terms below 4,000,000
  * Return : Always 0(Success)
  */
 int main(void)
