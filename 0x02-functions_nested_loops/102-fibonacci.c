@@ -1,7 +1,7 @@
 #include "main.h"
 #include <stdio.h>
 /**
- * main: prints the first 50 Fibonacci numbers
+ * main - prints the first 50 Fibonacci numbers
  * Description: prints the first 50 Fibonacci numbers
  * Return: Always 0(Success)
  */
@@ -18,7 +18,7 @@ int main(void)
 	while (count < 49)
 	{
 		sum = first + second;
-		printf("%li ", sum);
+		printf("%li, ", sum);
 		first = second;
 		second = sum;
 		count++;
