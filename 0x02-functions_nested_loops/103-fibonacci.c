@@ -3,7 +3,7 @@
 /**
  * main - prints the sum of all even Fibonacci numbers below 4000000
  * Description: prints the sum of all even Fibonacci numbers below 4000000
- * Return : Always 0(Success)
+ * Return: Always 0(Success)
  */
 int main(void)
 {
