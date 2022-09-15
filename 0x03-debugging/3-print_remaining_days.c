@@ -6,8 +6,8 @@
  * @month: month in number format
  * @day: day of month
  * @year: year
- * Description: takes a date and prints how many days are
- * left in the year, taking leap years into account
+ * Description: takes a date and prints how many days are left in the
+ * year, taking leap years into account
  * Return: Always 0(success)
  */
 void print_remaining_days(int month, int day, int year)
