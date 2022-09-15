@@ -5,24 +5,40 @@
  * Description: prints the first 98 Fibonacci numbers
  * Return: Always 0(Success)
  */
-
-/**
- * fib - prints the first 98 Fibonacci numbers
- * @n: n is an integer
- * Description: prints the first 98 Fibonacci numbers 
- * Return: integer
- */
-int fib(int n)
-{
-	if (n <= 1)
-		return (n);
-	return (fib(n - 1)) + (fib(n - 2));
-}
 int main(void)
 {
-	int i = 98;
+	int count;
+	unsigned long fib1 =0, fib2=1, sum;
+	unsigned long fib1_half1, fib1_half2, fib2_half1, fib2_half2;
+	unsigned long half1, half2;
 
-	printf("%d", fib(i));
-	getchar();
+	for (count=0; count < 92; count++)
+	{
+		sum = fib1 + fib2;
+		printf("%lu, ", sum);
+		fib1 = fib2;
+		fib2 = sum;
+	}
+	fib1_half1 = fib1 / 10000000000;
+	fib2_half1 = fib2 / 10000000000;
+	fib1_half2 = fib1 % 10000000000;
+	fib2_half2 = fib2 % 10000000000;
+
+	for (count = 93; count < 99; count ++)
+	{
+		half1 = fib1_half1 + fib2_half2;
+		half2 = fib1_half2 + fib2_half2;
+		if (fib1_half2 + fib2_half2 > 9999999999)
+		{
+			half1 += 1;
+			half2 %= 0000000000;
+		}
+		printf("%lu%lu", half1, half2);
+		if (count != 98)
+		{
+			printf(", ");
+		}
+	}
+	printf('\n');
 	return (0);
 }
