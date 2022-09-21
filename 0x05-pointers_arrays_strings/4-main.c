@@ -1,6 +1,6 @@
 #include "main.h"
 /**
- * main - check the code
+ * main - Prints a string in reverse
  * Description: Prints a string in reverse
  * Return: Always 0(success)
  */
