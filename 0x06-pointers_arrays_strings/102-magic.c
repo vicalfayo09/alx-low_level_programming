@@ -1,8 +1,4 @@
 #include <stdio.h>
-/* main - checks the code
- * Description: program prints 98
- * Return: Always 0(success)
- */
 int main(void)
 {
 	int n;
