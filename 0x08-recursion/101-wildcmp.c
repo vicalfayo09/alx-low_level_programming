@@ -12,6 +12,7 @@ int wildcmp(char *s1, char *s2);
 int strlen_no_wilds(char *str)
 {
 	int len = 0, index = 0;
+
 	if (*(str + index))
 	{
 		if (*str != '*')
@@ -77,7 +78,7 @@ int wildcmp(char *s1, char *s2)
 	}
 	if (*s1 != *s2)
 	{
-		return 0;
+		return (0);
 	}
 	return (wildcmp(++s1, ++s2));
 }
