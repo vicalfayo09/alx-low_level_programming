@@ -1,6 +1,13 @@
 #include "main.h"
 #include <stdlib.h>
 #include <stdio.h>
+
+int find_len(char *str);
+char *create_xarray(int size);
+char *iterate_zeroes(char *str);
+void get_prod(char *prod, char *mult, int digit, int zeroes);
+void add_nums(char *final_prod, char *next_prod, int next_len);
+
 /**
  * find_len - Finds the length of a string.
  * @str: The string to be measured.
@@ -33,7 +40,7 @@ char *create_xarray(int size)
 
 	array = malloc(sizeof(char) * size);
 
-	if (array == NULL)
+	if (!array)
 		exit(98);
 
 	for (index = 0; index < (size - 1); index++)
