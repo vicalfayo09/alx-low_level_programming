@@ -30,7 +30,7 @@ void simple_print_buffer(char *buffer, unsigned int size)
 }
 /**
  * main - check the code
- * Description: creates an array of integers.
+ * Description: reallocates a memory block.
  * Return: Always 0.
  */
 int main(void)
