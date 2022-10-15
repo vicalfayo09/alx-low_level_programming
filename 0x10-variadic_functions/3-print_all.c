@@ -42,7 +42,7 @@ void print_string(va_list args)
 	printf("%s", s);
 }
 /**
- * print_all - prints anything*
+ * print_all - prints anything
  * @format: list of types of arguments
  */
 void print_all(const char * const format, ...)
